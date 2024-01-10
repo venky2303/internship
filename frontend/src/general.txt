@@ -1,0 +1,26 @@
+Set-ExecutionPolicy -Scope Process RemoteSigned
+//for running backend file 
+nodemon run server
+
+npm install react-alert-template-basic --force
+
+npm install --save @fortawesome/react-fontawesome --force
+ 
+ npm install --save @fortawesome/free-solid-svg-icons --force
+
+ npm install react-alert --force
+ npm i redux --force
+ //for delivery these package need to be installed
+ npm i countries-list --force
+
+ //BACKEND DATA AND STRIPE AND MAILTRAP ACCOUNT DETAILS
+EMAIL_USERNAME=e77f392aece12e
+EMAIL_PASSWORD=bc1abd249b641f
+EMAIL_HOST=sandbox.smtp.mailtrap.io
+EMAIL_PORT=25
+EMAIL_FROM=culinarykitchen.com
+
+STRIPE_SECRET_KEY =sk_test_51Np38kSBSXxTeEMqCYVeZ1GsI2X8ieNzYp7GneZQiEYd0BELLMTWIxJN3Gj4folZNEgHPJpEW9rrlukqgqSC8j0l00L7JVCiSH
+STRIPE_API_KEY =pk_test_51Np38kSBSXxTeEMqZ37qz5nRGtuirYwbjk5oLGq308uYVRadMa3N5kyFFCbPL4D53a6YJMIdDk7l50Q2o6SOAwUg00mPDDLsoS
+
+
